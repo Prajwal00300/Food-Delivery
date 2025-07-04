@@ -43,7 +43,7 @@ const removeFromCart = async (req, res) => {
 const getCart = async (req, res) => {
     try {
         const userData = await userModel.findById(req.userId);
-        const cartData = userData?.cartData || {};
+        const cartData = userData.cartData || {};
         res.json({ success: true, cartData });
     } catch (error) {
         console.log(error);
