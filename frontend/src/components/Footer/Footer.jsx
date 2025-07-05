@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nisi consectetur obcaecati illo ullam labore repellat distinctio pariatur eveniet maiores, omnis ipsam ipsa ipsum perferendis minus unde accusantium repellendus option.</p>
+                <p>We bring delicious meals to your doorstep with speed, care, and quality. Our platform connects hungry customers with trusted local restaurants. Enjoy fresh ingredients, fast delivery, and a seamless ordering experience. Built with modern technology to ensure your satisfaction, every time you order.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
