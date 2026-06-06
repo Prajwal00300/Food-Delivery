@@ -36,10 +36,11 @@ app.get("/",(req,res)=>{
 
 })
 
-app.listen(port,()=>{
-    console.log(`Serve started on port http://localhost:${port}`);
-    
-})
+if (!process.env.VERCEL) {
+    app.listen(port,()=>{
+        console.log(`Serve started on port http://localhost:${port}`);
+    })
+}
 
 export default app;
 
